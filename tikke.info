@@ -1,0 +1,68 @@
+; Packaging information for tikke
+name = "tikke"
+description = "tikke Installation profile"
+version = VERSION
+core = "7.x"
+
+; Install necessary core modules.
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+
+; Install Commerce dependencies.
+dependencies[] = addressfield
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = libraries
+
+; Install contrib dependencies
+dependencies[] = date
+dependencies[] = date_popup
+dependencies[] = date_api
+
+
+
+; Install more contribs.
+dependencies[] = pathauto
+dependencies[] = module_filter
+dependencies[] = jquery_update
+dependencies[] = token
+dependencies[] = webform
+dependencies[] = backup_migrate
+dependencies[] = views_bulk_operations
+dependencies[] = wysiwyg
+dependencies[] = admin_views
+dependencies[] = ckeditor_link
+dependencies[] = media
+dependencies[] = admin
+dependencies[] = admin_menu
+dependencies[] = link
+dependencies[] = eva
+dependencies[] = file_entity
+dependencies[] = strongarm
+dependencies[] = coffee
+dependencies[] = xmlsitemap
+dependencies[] = page_title
+dependencies[] = metatag
+dependencies[] = opengraph_meta
+dependencies[] = features
+
+files[] = profile.profile
+
+
+
+
